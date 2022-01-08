@@ -10,6 +10,6 @@ public interface DaoInterface {
 	public void update(int id,int num);
 	public void getTrack(String t,List<TrackDetail> list);
 	public void insertTrack(String t,int n);
-	public int retrieveValue(String t);
+	
 
 }
